@@ -8,11 +8,11 @@
         </span>
       </div>
           <%# // ログインしているときは上記を表示する %>
-    <% else %>
-       <div class="greeting"> 
+    <%# <% else %>
+       <%# <div class="greeting"> 
         <% :name %>
-        <%= link_to "ユーザー名さん", root_path, class: :greeting__link %>
-      </div>
+        <%# <%= link_to "ユーザー名さん", root_path, class: :greeting__link %>
+      <%# </div>  %> 
     <% end %>
     
     <div class="card__wrapper">
